@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model G8PM-1AW7R_DC12
+#/16312344/169976/2.49/6/3/Relay or Contactor
+DEF G8PM-1AW7R_DC12 K 0 30 Y Y 1 F N
+F0 "K" 1050 700 50 H V L CNN
+F1 "G8PM-1AW7R_DC12" 1050 600 50 H V L CNN
+F2 "G8PM1AW7RDC12" 1050 500 50 H I L CNN
+F3 "https://components.omron.com/us-en/datasheet_pdf/J262-E1.pdf" 1050 400 50 H I L CNN
+F4 "Automotive Relays G8PM High Power PCB Relay for Automotive and DC 12 V Applications" 1050 300 50 H I L CNN "Description"
+F5 "16.6" 1050 200 50 H I L CNN "Height"
+F6 "653-G8PM-1AW7RDC12" 1050 100 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/G8PM-1AW7R-DC12?qs=Li%252BoUPsLEnuHv%252B3Hozmakg%3D%3D" 1050 0 50 H I L CNN "Mouser Price/Stock"
+F8 "Omron Electronics" 1050 -100 50 H I L CNN "Manufacturer_Name"
+F9 "G8PM-1AW7R DC12" 1050 -200 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NO_1 1 0 0 200 R 50 50 0 0 P
+X NO_2 2 0 -100 200 R 50 50 0 0 P
+X COIL_1 3 600 -800 200 U 50 50 0 0 P
+X COM_1 4 1200 -100 200 L 50 50 0 0 P
+X COM_2 5 1200 0 200 L 50 50 0 0 P
+X COIL_2 6 600 700 200 D 50 50 0 0 P
+P 5 0 1 6 200 500 1000 500 1000 -600 200 -600 200 500 N
+ENDDRAW
+ENDDEF
+#
+#End Library
