@@ -5,7 +5,7 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -64,7 +64,7 @@
       35,
       36
     ],
-    "visible_layers": "ffcffff_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
@@ -72,31 +72,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "MotorDriverDualHalfBridge.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 2576,
-          "size_y": 1408
-        }
-      },
-      {
-        "name": "MotorDriverDualHalfBridge.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 2552,
-          "pos_y": -391,
-          "size_x": 1096,
-          "size_y": 1888
-        }
-      }
-    ]
+    "files": []
   }
 }
