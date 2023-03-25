@@ -336,8 +336,72 @@
       "Fuse Box"
     ],
     [
-      "7f8267b7-b39f-4f35-906a-189791422fda",
-      "BMS"
+      "7abe5ec8-af81-44db-ab95-30c04a77efa0",
+      "BMS_Passive2"
+    ],
+    [
+      "19e05faa-0db5-4214-a5d0-9432a31cc835",
+      "BMS_Passive7"
+    ],
+    [
+      "6eed22f2-e206-4634-b8b8-4efeafd375d3",
+      "BMS_Passive3"
+    ],
+    [
+      "d1b6f1a4-ca40-4c37-85db-61785d5d2f5a",
+      "BMS_Passive4"
+    ],
+    [
+      "d719d8ea-7a85-43a5-8e2f-194523d9b0f1",
+      "BMS_Passive5"
+    ],
+    [
+      "cc2ca1f2-271c-473f-9e64-b52947daf326",
+      "BMS_Passive6"
+    ],
+    [
+      "be14b5c5-912d-4079-848d-40905c0a5d99",
+      "Level Translator1"
+    ],
+    [
+      "92820933-c792-40b4-93f6-63766e6554e0",
+      "Lights Controller"
+    ],
+    [
+      "72f145b7-fb00-4ef3-ae38-7856abe92e01",
+      "Level Translator7"
+    ],
+    [
+      "54f1d57e-fd87-4a86-adde-e644fa592b73",
+      "Level Translator2"
+    ],
+    [
+      "b32c10ec-1ae2-4929-bcf9-0a0bef4fc647",
+      "Level Translator3"
+    ],
+    [
+      "9b957590-5caa-4269-97f5-169be407709d",
+      "Level Translator4"
+    ],
+    [
+      "4a9b9fcd-4686-4106-a203-74277895709f",
+      "BMS_Passive1"
+    ],
+    [
+      "f139292a-7ba4-4375-b352-884dc98c8dca",
+      "Level Translator5"
+    ],
+    [
+      "defd9ec2-e8bc-4bdf-b62f-0801580013f2",
+      "Level Translator6"
+    ],
+    [
+      "e6f7fd4d-8c6c-4b3d-b41c-6a2910540cbc",
+      "Fault Logic Controller"
+    ],
+    [
+      "74b6a814-0062-436b-b15e-0c05f093947f",
+      "Battery Charger"
     ]
   ],
   "text_variables": {}
