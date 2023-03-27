@@ -360,7 +360,7 @@
       "BMS_Passive6"
     ],
     [
-      "be14b5c5-912d-4079-848d-40905c0a5d99",
+      "cf7f5306-c733-4d6d-bbd6-0c29e5db7f24",
       "Level Translator1"
     ],
     [
@@ -368,40 +368,64 @@
       "Lights Controller"
     ],
     [
-      "72f145b7-fb00-4ef3-ae38-7856abe92e01",
-      "Level Translator7"
-    ],
-    [
-      "54f1d57e-fd87-4a86-adde-e644fa592b73",
+      "424799f1-b269-48e5-ac93-000f789a4a0f",
       "Level Translator2"
     ],
     [
-      "b32c10ec-1ae2-4929-bcf9-0a0bef4fc647",
+      "b26032de-1824-4fee-bb82-aa88865d6307",
       "Level Translator3"
     ],
     [
-      "9b957590-5caa-4269-97f5-169be407709d",
+      "cd78170e-5e8e-4205-8845-540a5d326e1d",
       "Level Translator4"
+    ],
+    [
+      "f54525ae-7da9-4a28-a60b-f12fd8d569a9",
+      "Level Translator5"
     ],
     [
       "4a9b9fcd-4686-4106-a203-74277895709f",
       "BMS_Passive1"
     ],
     [
-      "f139292a-7ba4-4375-b352-884dc98c8dca",
-      "Level Translator5"
+      "968bf86e-fca4-4681-8159-cb15885f71a1",
+      "Level Translator7"
     ],
     [
-      "defd9ec2-e8bc-4bdf-b62f-0801580013f2",
+      "6eaa4610-f736-4011-8773-c510b92b8127",
       "Level Translator6"
     ],
     [
-      "e6f7fd4d-8c6c-4b3d-b41c-6a2910540cbc",
+      "e9d2f2f7-2f1c-49c1-b942-e3748f9017f0",
       "Fault Logic Controller"
     ],
     [
       "74b6a814-0062-436b-b15e-0c05f093947f",
-      "Battery Charger"
+      "Battery Balancer"
+    ],
+    [
+      "c3abd914-8a3d-4045-89a3-4c882ae1ce0a",
+      "Charge Controller"
+    ],
+    [
+      "7708e5b2-0a75-40c8-a3d2-8281cd192259",
+      "12V Power Supply"
+    ],
+    [
+      "0387320d-a4dd-4eff-b26e-da29a9485b5e",
+      "Disconnect "
+    ],
+    [
+      "d4f99db8-9696-41dc-a8b6-d8395b75e8ba",
+      "Disconnect "
+    ],
+    [
+      "687e81f5-5c64-42d1-9826-1f675bc9cd55",
+      "Overcurrent Detection"
+    ],
+    [
+      "0b8ceb61-553b-4ac5-8229-ed236c1b50ba",
+      "3,3V Power Supply"
     ]
   ],
   "text_variables": {}
