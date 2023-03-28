@@ -150,24 +150,6 @@
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/19e05faa-0db5-4214-a5d0-9432a31cc835"
           (reference "U11") (unit 1)
         )
-        (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/4a9b9fcd-4686-4106-a203-74277895709f"
-          (reference "U7") (unit 1)
-        )
-        (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/7abe5ec8-af81-44db-ab95-30c04a77efa0"
-          (reference "U19") (unit 1)
-        )
-        (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/6eed22f2-e206-4634-b8b8-4efeafd375d3"
-          (reference "U27") (unit 1)
-        )
-        (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/d1b6f1a4-ca40-4c37-85db-61785d5d2f5a"
-          (reference "U61") (unit 1)
-        )
-        (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/d719d8ea-7a85-43a5-8e2f-194523d9b0f1"
-          (reference "U69") (unit 1)
-        )
-        (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/cc2ca1f2-271c-473f-9e64-b52947daf326"
-          (reference "U77") (unit 1)
-        )
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/74b6a814-0062-436b-b15e-0c05f093947f"
           (reference "U85") (unit 1)
         )

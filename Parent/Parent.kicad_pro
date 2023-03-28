@@ -312,6 +312,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -336,64 +344,44 @@
       "Fuse Box"
     ],
     [
-      "7abe5ec8-af81-44db-ab95-30c04a77efa0",
-      "BMS_Passive2"
+      "d0a136ef-5399-4da3-b1f0-073253159de9",
+      "BMS_Passive1"
     ],
     [
       "19e05faa-0db5-4214-a5d0-9432a31cc835",
       "BMS_Passive7"
     ],
     [
-      "6eed22f2-e206-4634-b8b8-4efeafd375d3",
+      "e2321953-7dfe-4a15-80f5-0c03c6ba6bfa",
+      "BMS_Passive2"
+    ],
+    [
+      "7174c952-fc7e-4c28-beb2-ddfe5d0ded76",
       "BMS_Passive3"
     ],
     [
-      "d1b6f1a4-ca40-4c37-85db-61785d5d2f5a",
+      "24743575-5a7f-4dcf-ba7b-6f1d16e1a49b",
       "BMS_Passive4"
     ],
     [
-      "d719d8ea-7a85-43a5-8e2f-194523d9b0f1",
+      "d90c9677-ea38-4363-9e5e-2051e84d729c",
       "BMS_Passive5"
     ],
     [
-      "cc2ca1f2-271c-473f-9e64-b52947daf326",
+      "54828462-1d65-472a-8f5e-f5614938bc55",
       "BMS_Passive6"
-    ],
-    [
-      "cf7f5306-c733-4d6d-bbd6-0c29e5db7f24",
-      "Level Translator1"
     ],
     [
       "92820933-c792-40b4-93f6-63766e6554e0",
       "Lights Controller"
     ],
     [
-      "424799f1-b269-48e5-ac93-000f789a4a0f",
-      "Level Translator2"
+      "c10fa787-5494-4dbc-b556-abed733477ad",
+      "BMS_Passive9"
     ],
     [
-      "b26032de-1824-4fee-bb82-aa88865d6307",
-      "Level Translator3"
-    ],
-    [
-      "cd78170e-5e8e-4205-8845-540a5d326e1d",
-      "Level Translator4"
-    ],
-    [
-      "f54525ae-7da9-4a28-a60b-f12fd8d569a9",
-      "Level Translator5"
-    ],
-    [
-      "4a9b9fcd-4686-4106-a203-74277895709f",
-      "BMS_Passive1"
-    ],
-    [
-      "968bf86e-fca4-4681-8159-cb15885f71a1",
-      "Level Translator7"
-    ],
-    [
-      "6eaa4610-f736-4011-8773-c510b92b8127",
-      "Level Translator6"
+      "c47cfab3-1fc0-49e1-a25f-ead89d79b3bc",
+      "BMS_Passive8"
     ],
     [
       "e9d2f2f7-2f1c-49c1-b942-e3748f9017f0",
