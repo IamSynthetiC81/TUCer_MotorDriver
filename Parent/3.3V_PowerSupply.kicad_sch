@@ -116,7 +116,7 @@
   (symbol (lib_id "Regulator_Linear:LD1117S33TR_SOT223") (at 144.78 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f8739c8-22da-4b14-b255-d62ce107bd5b)
-    (property "Reference" "U63" (at 144.78 55.88 0)
+    (property "Reference" "U?" (at 144.78 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LD1117S33TR_SOT223" (at 144.78 58.42 0)
@@ -134,7 +134,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/0b8ceb61-553b-4ac5-8229-ed236c1b50ba"
-          (reference "U63") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -143,7 +143,7 @@
   (symbol (lib_id "power:GND") (at 144.78 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3444346c-4acd-480e-ad58-34d7c7041843)
-    (property "Reference" "#PWR030" (at 144.78 77.47 0)
+    (property "Reference" "#PWR?" (at 144.78 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.78 76.2 0)
@@ -159,10 +159,10 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/7708e5b2-0a75-40c8-a3d2-8281cd192259"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/0b8ceb61-553b-4ac5-8229-ed236c1b50ba"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )

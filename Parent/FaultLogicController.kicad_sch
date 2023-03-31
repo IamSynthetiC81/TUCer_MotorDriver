@@ -2006,6 +2006,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0a738239-fbf3-4df8-a4f4-eaec8be56a4f)
   )
+  (label "~{UV&OC}_{DISCONECT}" (at 233.68 140.97 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27) bold) (justify left bottom))
+    (uuid 0e4634f1-fe00-4188-9849-16899954601f)
+  )
   (label "OV_{D}" (at 24.13 52.07 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3c8cae87-779b-4a07-ab88-d2f8d91ff222)
@@ -2127,10 +2131,6 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 801864cc-58ed-42f2-92e5-bf3bf18b3686)
   )
-  (hierarchical_label "~{UV_{FLAG}}" (shape output) (at 233.68 140.97 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 93ceb29e-a8c8-4020-9b42-e014c2ee003b)
-  )
   (hierarchical_label "~{OV_{FLAG}}" (shape output) (at 195.58 68.58 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a116f7f1-a190-4c46-8c7d-a9b5b9b38766)
@@ -2143,7 +2143,7 @@
   (symbol (lib_id "4xxx:4011") (at 49.53 31.75 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0093e196-0dab-4a28-87f1-c8d7ea553ee8)
-    (property "Reference" "U15" (at 49.5217 24.13 0)
+    (property "Reference" "U?" (at 49.5217 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 49.5217 26.67 0)
@@ -2172,7 +2172,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U15") (unit 2)
+          (reference "U?") (unit 2)
         )
       )
     )
@@ -2181,7 +2181,7 @@
   (symbol (lib_id "4xxx:4011") (at 49.53 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 077473a9-1f72-4b06-8b00-fafb28a70c36)
-    (property "Reference" "U15" (at 49.5217 13.97 0)
+    (property "Reference" "U?" (at 49.5217 13.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 49.5217 16.51 0)
@@ -2210,7 +2210,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U15") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -2219,7 +2219,7 @@
   (symbol (lib_id "4xxx:4011") (at 156.21 157.48 270) (mirror x) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09e4c8f4-9d6f-4e10-b736-e89e04044d1d)
-    (property "Reference" "U16" (at 156.21 148.59 90)
+    (property "Reference" "U?" (at 156.21 148.59 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 156.21 151.13 90)
@@ -2248,7 +2248,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U16") (unit 5)
+          (reference "U?") (unit 5)
         )
       )
     )
@@ -2257,7 +2257,7 @@
   (symbol (lib_id "4xxx:4011") (at 250.19 102.87 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15921691-9c57-49ce-a888-43d2c490f6d9)
-    (property "Reference" "U57" (at 250.1983 95.25 0)
+    (property "Reference" "U?" (at 250.1983 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 250.1983 97.79 0)
@@ -2286,7 +2286,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U57") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -2295,7 +2295,7 @@
   (symbol (lib_id "4xxx:4011") (at 170.18 68.58 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 183a3193-261f-4704-8bd3-4108da9cdf3f)
-    (property "Reference" "U28" (at 170.1717 60.96 0)
+    (property "Reference" "U?" (at 170.1717 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 170.1717 63.5 0)
@@ -2324,7 +2324,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U28") (unit 3)
+          (reference "U?") (unit 3)
         )
       )
     )
@@ -2333,7 +2333,7 @@
   (symbol (lib_id "4xxx:4011") (at 152.4 74.93 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1cd9e484-d97c-41b8-b40c-6f942082f719)
-    (property "Reference" "U28" (at 152.3917 67.31 0)
+    (property "Reference" "U?" (at 152.3917 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 152.3917 69.85 0)
@@ -2362,7 +2362,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U28") (unit 2)
+          (reference "U?") (unit 2)
         )
       )
     )
@@ -2371,7 +2371,7 @@
   (symbol (lib_id "power:GND") (at 143.51 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d8e8521-3581-4c44-bb91-02dacbd6d814)
-    (property "Reference" "#PWR028" (at 143.51 195.58 0)
+    (property "Reference" "#PWR?" (at 143.51 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 194.31 0)
@@ -2387,7 +2387,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2396,7 +2396,7 @@
   (symbol (lib_id "4xxx:4011") (at 130.81 177.8 90) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1dd41a1c-6277-488d-8c77-ce82fde6d612)
-    (property "Reference" "U15" (at 130.81 168.91 90)
+    (property "Reference" "U?" (at 130.81 168.91 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 130.81 171.45 90)
@@ -2425,7 +2425,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U15") (unit 5)
+          (reference "U?") (unit 5)
         )
       )
     )
@@ -2434,7 +2434,7 @@
   (symbol (lib_id "power:+12V") (at 200.66 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f92bd75-14ac-41ec-807a-fe7268922958)
-    (property "Reference" "#PWR024" (at 200.66 86.36 0)
+    (property "Reference" "#PWR?" (at 200.66 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 200.66 78.74 0)
@@ -2450,7 +2450,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2459,7 +2459,7 @@
   (symbol (lib_id "4xxx:4011") (at 250.19 72.39 0) (mirror y) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20cf31fd-a266-4a72-b472-cd2f86ffe29d)
-    (property "Reference" "U34" (at 250.1983 64.77 0)
+    (property "Reference" "U?" (at 250.1983 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 250.1983 67.31 0)
@@ -2488,7 +2488,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U34") (unit 2)
+          (reference "U?") (unit 2)
         )
       )
     )
@@ -2497,7 +2497,7 @@
   (symbol (lib_id "4xxx:4011") (at 49.53 41.91 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 223a267d-541b-4cb2-aa82-f82e62272bf1)
-    (property "Reference" "U15" (at 49.5217 34.29 0)
+    (property "Reference" "U?" (at 49.5217 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 49.5217 36.83 0)
@@ -2526,7 +2526,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U15") (unit 3)
+          (reference "U?") (unit 3)
         )
       )
     )
@@ -2535,7 +2535,7 @@
   (symbol (lib_id "4xxx_IEEE:4068") (at 99.06 57.15 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2561c36a-862e-4941-8894-8c01dd0339d2)
-    (property "Reference" "U23" (at 101.0159 71.12 0)
+    (property "Reference" "U?" (at 101.0159 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4068" (at 101.0159 68.58 0)
@@ -2562,7 +2562,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U23") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -2571,7 +2571,7 @@
   (symbol (lib_id "power:+12V") (at 168.91 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2816e713-4641-4160-be2b-9e5e4436dd4b)
-    (property "Reference" "#PWR027" (at 168.91 153.67 0)
+    (property "Reference" "#PWR?" (at 168.91 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 168.91 146.05 0)
@@ -2587,7 +2587,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2596,7 +2596,7 @@
   (symbol (lib_id "4xxx:4011") (at 223.52 140.97 0) (mirror x) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 297fdd90-4059-4e49-baec-eb20520e03fd)
-    (property "Reference" "U58" (at 223.5117 148.59 0)
+    (property "Reference" "U?" (at 223.5117 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 223.5117 146.05 0)
@@ -2625,7 +2625,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U58") (unit 3)
+          (reference "U?") (unit 3)
         )
       )
     )
@@ -2634,7 +2634,7 @@
   (symbol (lib_id "power:+12V") (at 118.11 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ae73f68-2c77-420d-88bf-40fb89a8cb7c)
-    (property "Reference" "#PWR026" (at 118.11 153.67 0)
+    (property "Reference" "#PWR?" (at 118.11 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 118.11 146.05 0)
@@ -2650,7 +2650,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2659,7 +2659,7 @@
   (symbol (lib_id "power:GND") (at 200.66 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 390ad163-e3bb-4573-82f7-f327af549266)
-    (property "Reference" "#PWR025" (at 200.66 119.38 0)
+    (property "Reference" "#PWR?" (at 200.66 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.66 118.11 0)
@@ -2675,7 +2675,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2684,7 +2684,7 @@
   (symbol (lib_id "4xxx:4011") (at 49.53 163.83 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4bf9979d-f79a-4210-a78d-7b021198c7f6)
-    (property "Reference" "U21" (at 49.5217 156.21 0)
+    (property "Reference" "U?" (at 49.5217 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 49.5217 158.75 0)
@@ -2713,7 +2713,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U21") (unit 3)
+          (reference "U?") (unit 3)
         )
       )
     )
@@ -2722,7 +2722,7 @@
   (symbol (lib_id "4xxx:4011") (at 49.53 92.71 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5407911d-d44e-4385-a5da-3dba7663c98c)
-    (property "Reference" "U16" (at 49.5217 85.09 0)
+    (property "Reference" "U?" (at 49.5217 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 49.5217 87.63 0)
@@ -2751,7 +2751,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U16") (unit 4)
+          (reference "U?") (unit 4)
         )
       )
     )
@@ -2760,7 +2760,7 @@
   (symbol (lib_id "4xxx:4011") (at 250.19 62.23 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5742bde5-de36-466e-98fd-48f26de886ea)
-    (property "Reference" "U34" (at 250.1983 54.61 0)
+    (property "Reference" "U?" (at 250.1983 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 250.1983 57.15 0)
@@ -2789,7 +2789,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U34") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -2798,7 +2798,7 @@
   (symbol (lib_id "4xxx:4011") (at 189.23 142.24 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 57d21ba2-d0ce-4129-9fd8-188925a9febb)
-    (property "Reference" "U58" (at 189.2217 149.86 0)
+    (property "Reference" "U?" (at 189.2217 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 189.2217 147.32 0)
@@ -2827,7 +2827,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U58") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -2836,7 +2836,7 @@
   (symbol (lib_id "4xxx:4011") (at 130.81 157.48 90) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5cd7dc8b-9be9-4216-94b8-1eff77a1d1fd)
-    (property "Reference" "U21" (at 130.81 148.59 90)
+    (property "Reference" "U?" (at 130.81 148.59 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 130.81 151.13 90)
@@ -2865,7 +2865,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U21") (unit 5)
+          (reference "U?") (unit 5)
         )
       )
     )
@@ -2874,7 +2874,7 @@
   (symbol (lib_id "4xxx:4011") (at 156.21 167.64 270) (mirror x) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6085ac25-aeb3-433a-905e-6c7821a27be0)
-    (property "Reference" "U28" (at 156.21 158.75 90)
+    (property "Reference" "U?" (at 156.21 158.75 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 156.21 161.29 90)
@@ -2903,7 +2903,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U28") (unit 5)
+          (reference "U?") (unit 5)
         )
       )
     )
@@ -2912,7 +2912,7 @@
   (symbol (lib_id "4xxx:4011") (at 207.01 135.89 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62180217-49bf-4d2d-9757-9115eb6dade5)
-    (property "Reference" "U59" (at 207.0017 143.51 0)
+    (property "Reference" "U?" (at 207.0017 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 207.0017 140.97 0)
@@ -2941,7 +2941,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U59") (unit 2)
+          (reference "U?") (unit 2)
         )
       )
     )
@@ -2950,7 +2950,7 @@
   (symbol (lib_id "4xxx:4011") (at 189.23 129.54 0) (mirror x) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6aeefa04-4f20-4aea-8c93-efdeefc37169)
-    (property "Reference" "U58" (at 189.2217 137.16 0)
+    (property "Reference" "U?" (at 189.2217 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 189.2217 134.62 0)
@@ -2979,7 +2979,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U58") (unit 4)
+          (reference "U?") (unit 4)
         )
       )
     )
@@ -2988,7 +2988,7 @@
   (symbol (lib_id "4xxx:4011") (at 49.53 173.99 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6beab70d-a6a8-4838-9d9e-5ad8c5112184)
-    (property "Reference" "U21" (at 49.5217 166.37 0)
+    (property "Reference" "U?" (at 49.5217 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 49.5217 168.91 0)
@@ -3017,7 +3017,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U21") (unit 4)
+          (reference "U?") (unit 4)
         )
       )
     )
@@ -3026,7 +3026,7 @@
   (symbol (lib_id "4xxx:4011") (at 130.81 167.64 90) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d826909-8024-4f84-a16e-0d9b7ae52a19)
-    (property "Reference" "U20" (at 130.81 158.75 90)
+    (property "Reference" "U?" (at 130.81 158.75 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 130.81 161.29 90)
@@ -3055,7 +3055,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U20") (unit 5)
+          (reference "U?") (unit 5)
         )
       )
     )
@@ -3064,7 +3064,7 @@
   (symbol (lib_id "4xxx:4011") (at 49.53 82.55 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8647c763-d218-4bec-a7dd-45e94b2864eb)
-    (property "Reference" "U16" (at 49.5217 74.93 0)
+    (property "Reference" "U?" (at 49.5217 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 49.5217 77.47 0)
@@ -3093,7 +3093,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U16") (unit 3)
+          (reference "U?") (unit 3)
         )
       )
     )
@@ -3102,7 +3102,7 @@
   (symbol (lib_id "4xxx:4011") (at 49.53 153.67 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87a9a11a-80fe-42cb-8418-97a6c78e167e)
-    (property "Reference" "U21" (at 49.5217 146.05 0)
+    (property "Reference" "U?" (at 49.5217 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 49.5217 148.59 0)
@@ -3131,7 +3131,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U21") (unit 2)
+          (reference "U?") (unit 2)
         )
       )
     )
@@ -3140,7 +3140,7 @@
   (symbol (lib_id "4xxx_IEEE:4068") (at 99.06 138.43 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88d56e6d-23df-4369-9af7-7b397a6c8c0a)
-    (property "Reference" "U26" (at 101.0159 152.4 0)
+    (property "Reference" "U?" (at 101.0159 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4068" (at 101.0159 149.86 0)
@@ -3167,7 +3167,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U26") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -3176,7 +3176,7 @@
   (symbol (lib_id "4xxx:4011") (at 49.53 133.35 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98ef0637-2916-4eb2-9af3-0ec885e2849d)
-    (property "Reference" "U20" (at 49.5217 125.73 0)
+    (property "Reference" "U?" (at 49.5217 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 49.5217 128.27 0)
@@ -3205,7 +3205,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U20") (unit 4)
+          (reference "U?") (unit 4)
         )
       )
     )
@@ -3214,7 +3214,7 @@
   (symbol (lib_id "power:+12V") (at 99.06 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a066d325-e7ce-4fc3-8936-94e4d80fc3d2)
-    (property "Reference" "#PWR020" (at 99.06 45.72 0)
+    (property "Reference" "#PWR?" (at 99.06 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 99.06 38.1 0)
@@ -3230,7 +3230,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -3239,7 +3239,7 @@
   (symbol (lib_id "4xxx:4011") (at 152.4 135.89 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a06e9067-95c4-417f-a85a-70a6c2ecb7cd)
-    (property "Reference" "U29" (at 152.3917 143.51 0)
+    (property "Reference" "U?" (at 152.3917 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 152.3917 140.97 0)
@@ -3268,7 +3268,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U29") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -3277,7 +3277,7 @@
   (symbol (lib_id "4xxx:4011") (at 250.19 113.03 0) (mirror y) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2fcaaec-f955-4ab7-b2ed-7b8e6a2d2ee2)
-    (property "Reference" "U57" (at 250.1983 105.41 0)
+    (property "Reference" "U?" (at 250.1983 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 250.1983 107.95 0)
@@ -3306,7 +3306,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U57") (unit 2)
+          (reference "U?") (unit 2)
         )
       )
     )
@@ -3315,7 +3315,7 @@
   (symbol (lib_id "4xxx:4011") (at 250.19 133.35 0) (mirror y) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid adca73af-90cb-4b5b-a504-6ecf245df680)
-    (property "Reference" "U57" (at 250.1983 125.73 0)
+    (property "Reference" "U?" (at 250.1983 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 250.1983 128.27 0)
@@ -3344,7 +3344,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U57") (unit 4)
+          (reference "U?") (unit 4)
         )
       )
     )
@@ -3353,7 +3353,7 @@
   (symbol (lib_id "4xxx:4011") (at 250.19 123.19 0) (mirror y) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae3f0452-b4e6-4f5c-91bd-19119998cddb)
-    (property "Reference" "U57" (at 250.1983 115.57 0)
+    (property "Reference" "U?" (at 250.1983 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 250.1983 118.11 0)
@@ -3382,7 +3382,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U57") (unit 3)
+          (reference "U?") (unit 3)
         )
       )
     )
@@ -3391,7 +3391,7 @@
   (symbol (lib_id "4xxx:4011") (at 156.21 177.8 270) (mirror x) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af23d2d3-f86b-44d5-af10-1adaf82b8377)
-    (property "Reference" "U34" (at 156.21 168.91 90)
+    (property "Reference" "U?" (at 156.21 168.91 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 156.21 171.45 90)
@@ -3420,7 +3420,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U34") (unit 5)
+          (reference "U?") (unit 5)
         )
       )
     )
@@ -3429,7 +3429,7 @@
   (symbol (lib_id "power:+12V") (at 99.06 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b602dbf4-b939-44da-9a99-2d5d88e693a9)
-    (property "Reference" "#PWR022" (at 99.06 127 0)
+    (property "Reference" "#PWR?" (at 99.06 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 99.06 119.38 0)
@@ -3445,7 +3445,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -3454,7 +3454,7 @@
   (symbol (lib_id "4xxx:4011") (at 152.4 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b81e23d6-b6b3-4b15-a3c1-b9a9dcd34d61)
-    (property "Reference" "U28" (at 152.3917 54.61 0)
+    (property "Reference" "U?" (at 152.3917 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 152.3917 57.15 0)
@@ -3483,7 +3483,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U28") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -3492,7 +3492,7 @@
   (symbol (lib_id "4xxx:4011") (at 186.69 68.58 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bbea9254-f83b-4c55-9f75-a37728129ef8)
-    (property "Reference" "U28" (at 186.6817 60.96 0)
+    (property "Reference" "U?" (at 186.6817 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 186.6817 63.5 0)
@@ -3521,7 +3521,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U28") (unit 4)
+          (reference "U?") (unit 4)
         )
       )
     )
@@ -3530,7 +3530,7 @@
   (symbol (lib_id "4xxx:4011") (at 49.53 113.03 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bcd76042-cc2c-452c-8f88-a86f4fe1d313)
-    (property "Reference" "U20" (at 49.5217 105.41 0)
+    (property "Reference" "U?" (at 49.5217 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 49.5217 107.95 0)
@@ -3559,7 +3559,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U20") (unit 2)
+          (reference "U?") (unit 2)
         )
       )
     )
@@ -3568,7 +3568,7 @@
   (symbol (lib_id "4xxx:4011") (at 49.53 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bcee2bbe-6c58-4b67-aad6-a17e9218392f)
-    (property "Reference" "U16" (at 49.5217 54.61 0)
+    (property "Reference" "U?" (at 49.5217 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 49.5217 57.15 0)
@@ -3597,7 +3597,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U16") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -3606,7 +3606,7 @@
   (symbol (lib_id "4xxx:4011") (at 152.4 123.19 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bda7ce48-f370-4844-8dcc-83e49e1655b0)
-    (property "Reference" "U29" (at 152.3917 130.81 0)
+    (property "Reference" "U?" (at 152.3917 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 152.3917 128.27 0)
@@ -3635,7 +3635,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U29") (unit 2)
+          (reference "U?") (unit 2)
         )
       )
     )
@@ -3644,7 +3644,7 @@
   (symbol (lib_id "4xxx:4011") (at 49.53 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c395f5ac-4e8c-4adc-8033-6d09175ee40f)
-    (property "Reference" "U20" (at 49.5217 95.25 0)
+    (property "Reference" "U?" (at 49.5217 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 49.5217 97.79 0)
@@ -3673,7 +3673,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U20") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -3682,7 +3682,7 @@
   (symbol (lib_id "power:GND") (at 99.06 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf1760cb-e383-43c8-bc83-71649939b1d5)
-    (property "Reference" "#PWR021" (at 99.06 78.74 0)
+    (property "Reference" "#PWR?" (at 99.06 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.06 77.47 0)
@@ -3698,7 +3698,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -3707,7 +3707,7 @@
   (symbol (lib_id "4xxx:4011") (at 250.19 82.55 0) (mirror y) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d164f647-ed45-40ab-ae71-2500b53d1c3f)
-    (property "Reference" "U34" (at 250.1983 74.93 0)
+    (property "Reference" "U?" (at 250.1983 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 250.1983 77.47 0)
@@ -3736,7 +3736,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U34") (unit 3)
+          (reference "U?") (unit 3)
         )
       )
     )
@@ -3745,7 +3745,7 @@
   (symbol (lib_id "4xxx:4011") (at 49.53 52.07 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2965fee-a6e9-4c93-8adc-88f7e55f9833)
-    (property "Reference" "U15" (at 49.5217 44.45 0)
+    (property "Reference" "U?" (at 49.5217 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 49.5217 46.99 0)
@@ -3774,7 +3774,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U15") (unit 4)
+          (reference "U?") (unit 4)
         )
       )
     )
@@ -3783,7 +3783,7 @@
   (symbol (lib_id "4xxx:4011") (at 170.18 129.54 0) (mirror x) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d89a217e-2fff-42db-9b69-763cfe3dc978)
-    (property "Reference" "U29" (at 170.1717 137.16 0)
+    (property "Reference" "U?" (at 170.1717 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 170.1717 134.62 0)
@@ -3812,7 +3812,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U29") (unit 3)
+          (reference "U?") (unit 3)
         )
       )
     )
@@ -3821,7 +3821,7 @@
   (symbol (lib_id "4xxx:4011") (at 49.53 123.19 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dcee2f2e-576f-4b6a-bd6a-0a0fcb6529ff)
-    (property "Reference" "U20" (at 49.5217 115.57 0)
+    (property "Reference" "U?" (at 49.5217 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 49.5217 118.11 0)
@@ -3850,7 +3850,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U20") (unit 3)
+          (reference "U?") (unit 3)
         )
       )
     )
@@ -3859,7 +3859,7 @@
   (symbol (lib_id "4xxx_IEEE:4068") (at 200.66 97.79 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df39dea1-459e-4d50-93c8-a6ecd98dee9e)
-    (property "Reference" "U31" (at 198.7041 111.76 0)
+    (property "Reference" "U?" (at 198.7041 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4068" (at 198.7041 109.22 0)
@@ -3886,7 +3886,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U31") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -3895,7 +3895,7 @@
   (symbol (lib_id "4xxx:4011") (at 49.53 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e62226ec-e8b6-4796-a317-bdcc99682098)
-    (property "Reference" "U21" (at 49.5217 135.89 0)
+    (property "Reference" "U?" (at 49.5217 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 49.5217 138.43 0)
@@ -3924,7 +3924,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U21") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -3933,7 +3933,7 @@
   (symbol (lib_id "4xxx:4011") (at 49.53 72.39 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec53a4d6-98d4-4a28-8558-665382ecb862)
-    (property "Reference" "U16" (at 49.5217 64.77 0)
+    (property "Reference" "U?" (at 49.5217 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 49.5217 67.31 0)
@@ -3962,7 +3962,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U16") (unit 2)
+          (reference "U?") (unit 2)
         )
       )
     )
@@ -3971,7 +3971,7 @@
   (symbol (lib_id "4xxx:4011") (at 250.19 92.71 0) (mirror y) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ee4526c3-fc32-43bb-a546-8988dee600da)
-    (property "Reference" "U34" (at 250.1983 85.09 0)
+    (property "Reference" "U?" (at 250.1983 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 250.1983 87.63 0)
@@ -4000,7 +4000,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U34") (unit 4)
+          (reference "U?") (unit 4)
         )
       )
     )
@@ -4009,7 +4009,7 @@
   (symbol (lib_id "4xxx:4011") (at 130.81 187.96 90) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1260b94-4f7c-46b2-9702-3eed8890f474)
-    (property "Reference" "U29" (at 130.81 179.07 90)
+    (property "Reference" "U?" (at 130.81 179.07 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 130.81 181.61 90)
@@ -4038,7 +4038,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U29") (unit 5)
+          (reference "U?") (unit 5)
         )
       )
     )
@@ -4047,7 +4047,7 @@
   (symbol (lib_id "4xxx:4011") (at 156.21 187.96 90) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f96d5901-f7da-492c-8ef8-8716abba7aa3)
-    (property "Reference" "U57" (at 156.21 179.07 90)
+    (property "Reference" "U?" (at 156.21 179.07 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4011" (at 156.21 181.61 90)
@@ -4076,7 +4076,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "U57") (unit 5)
+          (reference "U?") (unit 5)
         )
       )
     )
@@ -4085,7 +4085,7 @@
   (symbol (lib_id "power:GND") (at 99.06 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9ac0b5d-df97-4a68-86a3-8474ee6c99fe)
-    (property "Reference" "#PWR023" (at 99.06 160.02 0)
+    (property "Reference" "#PWR?" (at 99.06 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.06 158.75 0)
@@ -4101,7 +4101,7 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/e9d2f2f7-2f1c-49c1-b942-e3748f9017f0"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )

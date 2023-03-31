@@ -600,7 +600,7 @@
   (symbol (lib_id "Device:R") (at 66.04 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1bf4a412-a05c-4e66-b242-093b121cda90)
-    (property "Reference" "R20" (at 68.58 45.085 0)
+    (property "Reference" "R?" (at 68.58 45.085 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 68.58 47.625 0)
@@ -617,10 +617,10 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/0387320d-a4dd-4eff-b26e-da29a9485b5e"
-          (reference "R20") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/d4f99db8-9696-41dc-a8b6-d8395b75e8ba"
-          (reference "R70") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -629,7 +629,7 @@
   (symbol (lib_id "Device:R") (at 41.91 57.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f69aa0d-2d0a-4753-9cf5-d76ce90d4244)
-    (property "Reference" "R24" (at 41.91 59.69 90)
+    (property "Reference" "R?" (at 41.91 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 41.91 54.61 90)
@@ -646,10 +646,10 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/0387320d-a4dd-4eff-b26e-da29a9485b5e"
-          (reference "R24") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/d4f99db8-9696-41dc-a8b6-d8395b75e8ba"
-          (reference "R29") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -658,7 +658,7 @@
   (symbol (lib_id "power:GND") (at 66.04 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25026886-f94c-4c0d-a4c9-23b146d4de3d)
-    (property "Reference" "#PWR031" (at 66.04 77.47 0)
+    (property "Reference" "#PWR?" (at 66.04 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 76.2 0)
@@ -674,10 +674,10 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/0387320d-a4dd-4eff-b26e-da29a9485b5e"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/d4f99db8-9696-41dc-a8b6-d8395b75e8ba"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -686,7 +686,7 @@
   (symbol (lib_id "Relay:Y14x-1C-xxDS") (at 41.91 33.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32986a01-0883-4ef5-a65e-fc4c5ce7582d)
-    (property "Reference" "K1" (at 41.91 19.05 90)
+    (property "Reference" "K?" (at 41.91 19.05 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Y14x-1C-xxDS" (at 41.91 21.59 90)
@@ -707,13 +707,13 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf"
-          (reference "K1") (unit 1)
+          (reference "K?") (unit 1)
         )
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/0387320d-a4dd-4eff-b26e-da29a9485b5e"
-          (reference "K2") (unit 1)
+          (reference "K?") (unit 1)
         )
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/d4f99db8-9696-41dc-a8b6-d8395b75e8ba"
-          (reference "K1") (unit 1)
+          (reference "K?") (unit 1)
         )
       )
     )
@@ -722,7 +722,7 @@
   (symbol (lib_id "power:+12V") (at 31.75 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a54d8d6-d118-4e0b-89be-59062aed9679)
-    (property "Reference" "#PWR033" (at 31.75 41.91 0)
+    (property "Reference" "#PWR?" (at 31.75 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 31.75 34.29 0)
@@ -738,10 +738,10 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/0387320d-a4dd-4eff-b26e-da29a9485b5e"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/d4f99db8-9696-41dc-a8b6-d8395b75e8ba"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -750,7 +750,7 @@
   (symbol (lib_id "Device:D") (at 41.91 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f461e9c-4f54-4826-bba2-806474c6e27a)
-    (property "Reference" "D10" (at 41.91 45.72 0)
+    (property "Reference" "D?" (at 41.91 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 41.91 48.26 0)
@@ -773,10 +773,10 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/0387320d-a4dd-4eff-b26e-da29a9485b5e"
-          (reference "D10") (unit 1)
+          (reference "D?") (unit 1)
         )
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/d4f99db8-9696-41dc-a8b6-d8395b75e8ba"
-          (reference "D11") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
     )
@@ -785,7 +785,7 @@
   (symbol (lib_id "Simulation_SPICE:NMOS") (at 63.5 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c76f0d9-840c-4dd1-a899-f4e00b05e8fb)
-    (property "Reference" "Q9" (at 69.85 56.515 0)
+    (property "Reference" "Q?" (at 69.85 56.515 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "NMOS" (at 69.85 59.055 0)
@@ -812,10 +812,10 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/d4f99db8-9696-41dc-a8b6-d8395b75e8ba"
-          (reference "Q9") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/0387320d-a4dd-4eff-b26e-da29a9485b5e"
-          (reference "Q8") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
     )

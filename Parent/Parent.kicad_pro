@@ -376,20 +376,12 @@
       "Lights Controller"
     ],
     [
-      "c10fa787-5494-4dbc-b556-abed733477ad",
-      "BMS_Passive9"
-    ],
-    [
-      "c47cfab3-1fc0-49e1-a25f-ead89d79b3bc",
-      "BMS_Passive8"
-    ],
-    [
       "e9d2f2f7-2f1c-49c1-b942-e3748f9017f0",
       "Fault Logic Controller"
     ],
     [
-      "74b6a814-0062-436b-b15e-0c05f093947f",
-      "Battery Balancer"
+      "4d041fcf-f06d-4821-a9aa-b25af11ebebc",
+      "BMS_Active"
     ],
     [
       "c3abd914-8a3d-4045-89a3-4c882ae1ce0a",

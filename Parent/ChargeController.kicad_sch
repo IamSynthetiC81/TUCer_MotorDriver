@@ -125,7 +125,7 @@
   (symbol (lib_id "Amplifier_Operational:TSV911IDT") (at 149.86 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7d635cd-072f-4f9f-9a14-91bb4ab2b6a7)
-    (property "Reference" "U11" (at 152.4 74.93 0)
+    (property "Reference" "U?" (at 152.4 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TSV911IDT" (at 157.48 77.47 0)
@@ -148,13 +148,10 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/19e05faa-0db5-4214-a5d0-9432a31cc835"
-          (reference "U11") (unit 1)
-        )
-        (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/74b6a814-0062-436b-b15e-0c05f093947f"
-          (reference "U85") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/c3abd914-8a3d-4045-89a3-4c882ae1ce0a"
-          (reference "U9") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )

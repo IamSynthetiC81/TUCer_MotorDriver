@@ -1447,7 +1447,7 @@
   (symbol (lib_id "Device:R") (at 114.3 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05604b01-b3ae-4f5f-9017-340ddb5cbfe9)
-    (property "Reference" "R13" (at 116.84 118.745 0)
+    (property "Reference" "R?" (at 116.84 118.745 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 116.84 121.285 0)
@@ -1464,12 +1464,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "R13") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1478,7 +1478,7 @@
   (symbol (lib_id "power:GNDD") (at 137.795 62.865 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10047f26-e05b-43dd-a2d4-08b73add567c)
-    (property "Reference" "#PWR016" (at 137.795 69.215 0)
+    (property "Reference" "#PWR?" (at 137.795 69.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 137.795 67.945 0)
@@ -1494,12 +1494,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1508,7 +1508,7 @@
   (symbol (lib_id "power:GNDD") (at 41.91 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17ede1a8-80e2-4d72-9054-83454c08b18b)
-    (property "Reference" "#PWR013" (at 41.91 133.35 0)
+    (property "Reference" "#PWR?" (at 41.91 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 41.91 132.08 0)
@@ -1524,12 +1524,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1538,7 +1538,7 @@
   (symbol (lib_id "Isolator:NSL-32") (at 74.93 41.275 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 257b6b67-7f48-40de-9be3-c2aaf631751c)
-    (property "Reference" "U4" (at 74.93 33.655 0)
+    (property "Reference" "U?" (at 74.93 33.655 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NSL-32" (at 74.93 36.195 0)
@@ -1557,12 +1557,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "U4") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "U2") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -1571,7 +1571,7 @@
   (symbol (lib_id "Device:R") (at 220.98 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c609934-c4f7-4313-9e45-4ac92905bc50)
-    (property "Reference" "R18" (at 223.52 121.285 0)
+    (property "Reference" "R?" (at 223.52 121.285 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 223.52 123.825 0)
@@ -1588,12 +1588,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "R18") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "R6") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1602,7 +1602,7 @@
   (symbol (lib_id "Transistor_FET:FQP27P06") (at 147.32 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2dea2872-861c-4ad4-a7d3-4d728b1a1c32)
-    (property "Reference" "Q4" (at 153.67 135.255 0)
+    (property "Reference" "Q?" (at 153.67 135.255 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "FQP27P06" (at 153.67 137.795 0)
@@ -1620,12 +1620,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "Q4") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "Q2") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
     )
@@ -1634,7 +1634,7 @@
   (symbol (lib_id "power:GNDD") (at 66.04 62.865 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32a22a72-a6ef-4e3c-9168-9da58d4005cc)
-    (property "Reference" "#PWR014" (at 66.04 69.215 0)
+    (property "Reference" "#PWR?" (at 66.04 69.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 66.04 67.945 0)
@@ -1650,12 +1650,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1664,7 +1664,7 @@
   (symbol (lib_id "Isolator:NSL-32") (at 38.1 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3572aa22-a9ca-4fe3-91e3-1c2e3b85cc78)
-    (property "Reference" "U3" (at 38.1 33.02 0)
+    (property "Reference" "U?" (at 38.1 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NSL-32" (at 38.1 35.56 0)
@@ -1683,12 +1683,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "U3") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "U1") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -1697,7 +1697,7 @@
   (symbol (lib_id "Isolator:NSL-32") (at 113.665 41.275 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 37b3de53-0250-4ef2-a654-54760d4c3719)
-    (property "Reference" "U5" (at 113.665 33.655 0)
+    (property "Reference" "U?" (at 113.665 33.655 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NSL-32" (at 113.665 36.195 0)
@@ -1716,12 +1716,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "U5") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "U3") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -1730,7 +1730,7 @@
   (symbol (lib_id "Device:R") (at 257.81 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f3bf062-1ba2-4e80-93e1-15f27bf4c9b4)
-    (property "Reference" "R19" (at 260.35 121.285 0)
+    (property "Reference" "R?" (at 260.35 121.285 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 260.35 123.825 0)
@@ -1747,12 +1747,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "R19") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1761,7 +1761,7 @@
   (symbol (lib_id "power:GNDD") (at 174.625 62.865 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52af3de4-b024-4d59-80d4-4576ae0e024e)
-    (property "Reference" "#PWR018" (at 174.625 69.215 0)
+    (property "Reference" "#PWR?" (at 174.625 69.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 174.625 67.945 0)
@@ -1777,12 +1777,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1791,7 +1791,7 @@
   (symbol (lib_id "Transistor_FET:FQP27P06") (at 218.44 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5fda176f-efdb-4c62-a3a4-43a09116f67c)
-    (property "Reference" "Q6" (at 224.79 137.795 0)
+    (property "Reference" "Q?" (at 224.79 137.795 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "FQP27P06" (at 224.79 140.335 0)
@@ -1809,12 +1809,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "Q6") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "Q6") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
     )
@@ -1823,7 +1823,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x04") (at 48.26 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65b1e4ae-eeb6-4003-97e7-01c227e27b57)
-    (property "Reference" "J9" (at 50.8 103.505 0)
+    (property "Reference" "J?" (at 50.8 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Screw_Terminal_01x04" (at 50.8 106.045 0)
@@ -1842,12 +1842,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "J9") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "J2") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
     )
@@ -1856,7 +1856,7 @@
   (symbol (lib_id "power:GNDD") (at 29.21 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 66948a4c-c483-41b2-aff0-76f5ba98478c)
-    (property "Reference" "#PWR06" (at 29.21 68.58 0)
+    (property "Reference" "#PWR?" (at 29.21 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 29.21 67.31 0)
@@ -1872,12 +1872,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1886,7 +1886,7 @@
   (symbol (lib_id "Transistor_FET:FQP27P06") (at 255.27 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 70bb7a73-bdfa-45b9-96b8-7ab25ccc15cb)
-    (property "Reference" "Q7" (at 261.62 137.795 0)
+    (property "Reference" "Q?" (at 261.62 137.795 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "FQP27P06" (at 261.62 140.335 0)
@@ -1904,12 +1904,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "Q7") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "Q7") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
     )
@@ -1918,7 +1918,7 @@
   (symbol (lib_id "Isolator:NSL-32") (at 183.515 41.275 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 905d8270-de84-4b7f-a32a-440d0ad8d477)
-    (property "Reference" "U35" (at 183.515 33.655 0)
+    (property "Reference" "U?" (at 183.515 33.655 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NSL-32" (at 183.515 36.195 0)
@@ -1937,12 +1937,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "U35") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "U5") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -1951,7 +1951,7 @@
   (symbol (lib_id "Device:R") (at 149.86 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 977cb43a-caca-4fb4-9380-fef9156181df)
-    (property "Reference" "R15" (at 152.4 118.745 0)
+    (property "Reference" "R?" (at 152.4 118.745 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 152.4 121.285 0)
@@ -1968,12 +1968,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "R15") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "R2") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1982,7 +1982,7 @@
   (symbol (lib_id "Device:R") (at 104.775 52.705 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9db0c76b-57d5-456b-8672-a6869e64b3ca)
-    (property "Reference" "R12" (at 107.315 52.07 0)
+    (property "Reference" "R?" (at 107.315 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 107.315 54.61 0)
@@ -1999,12 +1999,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "R12") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "R8") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -2013,7 +2013,7 @@
   (symbol (lib_id "power:GND") (at 149.86 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1251c61-e10a-45db-9549-738d412fb23c)
-    (property "Reference" "#PWR017" (at 149.86 162.56 0)
+    (property "Reference" "#PWR?" (at 149.86 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 161.29 0)
@@ -2029,12 +2029,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2043,7 +2043,7 @@
   (symbol (lib_id "Transistor_FET:FQP27P06") (at 111.76 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af65c09b-0138-45f5-adac-a55f33f563e6)
-    (property "Reference" "Q3" (at 118.11 135.255 0)
+    (property "Reference" "Q?" (at 118.11 135.255 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "FQP27P06" (at 118.11 137.795 0)
@@ -2061,12 +2061,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "Q3") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "Q1") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
     )
@@ -2075,7 +2075,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x07") (at 149.86 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9242c99-8090-4c82-8587-e8170b80a077)
-    (property "Reference" "J12" (at 149.86 88.9 90)
+    (property "Reference" "J?" (at 149.86 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Screw_Terminal_01x07" (at 149.86 91.44 90)
@@ -2097,12 +2097,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "J12") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "J1") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
     )
@@ -2111,7 +2111,7 @@
   (symbol (lib_id "Isolator:NSL-32") (at 146.685 41.275 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9618ff9-45cd-48a6-9c03-043eb328d381)
-    (property "Reference" "U6" (at 146.685 33.655 0)
+    (property "Reference" "U?" (at 146.685 33.655 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NSL-32" (at 146.685 36.195 0)
@@ -2130,12 +2130,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "U6") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "U4") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -2144,7 +2144,7 @@
   (symbol (lib_id "power:GNDD") (at 104.775 62.865 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bbdc653a-042a-48b9-97d8-7e14242223cb)
-    (property "Reference" "#PWR015" (at 104.775 69.215 0)
+    (property "Reference" "#PWR?" (at 104.775 69.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 104.775 67.945 0)
@@ -2160,12 +2160,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2174,7 +2174,7 @@
   (symbol (lib_id "Transistor_FET:FQP27P06") (at 181.61 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d442034c-2ccd-46ba-81e8-27ba0398e5ab)
-    (property "Reference" "Q5" (at 187.96 137.795 0)
+    (property "Reference" "Q?" (at 187.96 137.795 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "FQP27P06" (at 187.96 140.335 0)
@@ -2192,12 +2192,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "Q5") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "Q5") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
     )
@@ -2206,7 +2206,7 @@
   (symbol (lib_id "Device:R") (at 184.15 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dcfc9441-a344-4ca0-8b1c-6dc8bc2f6b16)
-    (property "Reference" "R17" (at 186.69 121.285 0)
+    (property "Reference" "R?" (at 186.69 121.285 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 186.69 123.825 0)
@@ -2223,12 +2223,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "R17") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "R5") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -2237,7 +2237,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x04") (at 48.26 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ddffff62-a069-4bc3-ad02-b1a46d4a675c)
-    (property "Reference" "J10" (at 50.8 121.285 0)
+    (property "Reference" "J?" (at 50.8 121.285 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Screw_Terminal_01x04" (at 50.8 123.825 0)
@@ -2256,12 +2256,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "J10") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "J3") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
     )
@@ -2270,7 +2270,7 @@
   (symbol (lib_id "Device:R") (at 137.795 52.705 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1b724d7-4519-4802-97fe-878aa933ac49)
-    (property "Reference" "R14" (at 140.335 52.07 0)
+    (property "Reference" "R?" (at 140.335 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 140.335 54.61 0)
@@ -2287,12 +2287,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "R14") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "R9") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -2301,7 +2301,7 @@
   (symbol (lib_id "Device:R") (at 174.625 52.705 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eabe92e2-5753-4241-94d4-349c8f66049d)
-    (property "Reference" "R16" (at 177.165 52.07 0)
+    (property "Reference" "R?" (at 177.165 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 177.165 54.61 0)
@@ -2318,12 +2318,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "R16") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "R10") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -2332,7 +2332,7 @@
   (symbol (lib_id "Device:R") (at 29.21 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f11d7453-66a5-4613-9182-6941cac9ac2e)
-    (property "Reference" "R8" (at 31.75 51.435 0)
+    (property "Reference" "R?" (at 31.75 51.435 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 31.75 53.975 0)
@@ -2349,12 +2349,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "R8") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "R3") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -2363,7 +2363,7 @@
   (symbol (lib_id "Device:R") (at 66.04 52.705 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f75dc4ad-f533-474b-8598-0404bafd38b8)
-    (property "Reference" "R11" (at 68.58 52.07 0)
+    (property "Reference" "R?" (at 68.58 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 68.58 54.61 0)
@@ -2380,12 +2380,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "R11") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "R4") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -2394,7 +2394,7 @@
   (symbol (lib_id "power:GNDD") (at 41.91 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd912713-9b29-43cc-976d-6f04ae412767)
-    (property "Reference" "#PWR07" (at 41.91 115.57 0)
+    (property "Reference" "#PWR?" (at 41.91 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 41.91 114.3 0)
@@ -2410,12 +2410,12 @@
     (instances
       (project "Parent"
         (path "/1451ec1d-c665-471b-ba41-1d89ef6a63bf/92820933-c792-40b4-93f6-63766e6554e0"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "LED_Driver"
         (path "/a62fe985-0819-4b86-856e-86d11d07cbc5"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
