@@ -1,4 +1,4 @@
-21449839553114298
+21456570500679555
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89578,3 +89578,31 @@ varistor
 0
 2
 2
+lib
+21700
+
+
+0
+2
+2
+lib
+IAUA250N04S6N005AUMA1
+IAUA250N04S6N005AUMA1-1
+MOSFET (N-Channel)
+0
+3
+3
+lib
+M5 Screw Terminal
+WE 7461383-3
+Integrated Circuit
+0
+16
+2
+lib
+MODULE_ARDUINO_PRO_MINI
+
+
+0
+34
+34

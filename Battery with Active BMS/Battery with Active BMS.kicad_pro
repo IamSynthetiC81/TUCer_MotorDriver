@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 5.3,
+          "height": 10.6,
+          "width": 10.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -96,7 +96,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -180,6 +180,18 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.6
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.6
+        },
+        {
+          "diameter": 1.2,
+          "drill": 0.6
         }
       ],
       "zones_allow_external_fillets": false
@@ -472,8 +484,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
-    "plot_directory": "",
+    "page_layout_descr_file": "empty.kicad_wks",
+    "plot_directory": "./",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -484,9 +496,19 @@
   },
   "sheets": [
     [
-      "819f5e8d-c88e-487e-be64-c1a9c502bcb6",
+      "c68c4702-666f-40d8-acb1-3b1e722c1e9e",
       ""
+    ],
+    [
+      "753e24f3-089d-4879-adb0-59e912d8fcca",
+      "ThermistorLayout"
+    ],
+    [
+      "2f1f5843-7d67-46a3-9764-6db89dea8fc0",
+      "Isolator2"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "SHEETTOTAL": "2"
+  }
 }
