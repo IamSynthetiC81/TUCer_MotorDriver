@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IAUA250N04S6N005AUMA1
+D Automotive MOSFET N-channel  Enhancement mode  Normal Level
+K
+F https://www.infineon.com/dgdl/Infineon-IAUA250N04S6N005-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c7f2a768a017fac2a170d3f38
+$ENDCMP
+#
+#End Doc Library

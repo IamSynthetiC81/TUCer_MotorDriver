@@ -1,0 +1,9 @@
+Manufacturer=Infineon
+PartNumber=IAUA250N04S6N005AUMA1
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Other
+PinCount=6
+Version=4.1
+Released=2022-08-10 06:54:58
+Downloaded=2023-03-08 20:05:05
+3D=Y
