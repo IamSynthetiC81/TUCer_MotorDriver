@@ -64,14 +64,27 @@
       35,
       36
     ],
-    "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "ffdffff_ffffffff",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "MotorDriverDualHalfBridge.kicad_prl",
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "MotorDriverDualHalfBridge.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 2576,
+          "size_y": 1408
+        }
+      }
+    ]
   }
 }
